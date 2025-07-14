@@ -16,5 +16,5 @@ jobs:
           password: ${{ secrets.EMAIL_PASS }}
           subject: ${{ secrets.SUBJECT }}
           body: ${{ secrets.BODY }}
-          to: ${{ secrets.EMAIL_USER3 }}
+          to: ${{ secrets.EMAIL_USER2 }}
           from: ${{ secrets.EMAIL_USER }}
