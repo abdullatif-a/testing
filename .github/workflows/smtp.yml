@@ -1,6 +1,6 @@
 on:
-  #schedule:
-   # - cron: '*/5 * * * *'
+  schedule:
+    - cron: '*/5 * * * *'
 
 jobs:
   notify:
@@ -15,5 +15,5 @@ jobs:
           password: ${{ secrets.EMAIL_PASS }}
           subject: automated message from GitHub Action
           body: Hello :)
-          to: ${{ secrets.EMAIL_USER2 }}
+          to: ${{ secrets.EMAIL_USER3 }}
           from: ${{ secrets.EMAIL_USER }}
