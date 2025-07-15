@@ -16,7 +16,7 @@ This GitHub Action sends an email using the `dawidd6/action-send-mail` GitHub Ac
 
 ### 1. Fork or Clone This Repository
 
-You can use this workflow in your own repository by creating a new file at:.github/workflows/email.yml
+You can use this workflow in your own repository by creating a new file at: `.github/workflows/email.yml`
 
 Then paste the workflow code below.
 
